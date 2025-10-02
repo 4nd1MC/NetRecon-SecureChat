@@ -1,0 +1,8 @@
+body { font-family: sans-serif; background: #111; color: #ddd; }
+.container { max-width: 900px; margin: 20px auto; padding: 12px; background: #1b1b1b; border-radius: 8px; }
+label { display:block; margin-top: 10px; }
+input { width: 100%; padding: 6px; margin-top: 4px; background: #222; color: #eee; border: 1px solid #333; border-radius: 4px; }
+button { margin-top: 12px; padding: 8px 12px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 1px solid #333; padding: 6px; text-align: left; }
+pre { white-space: pre-wrap; word-break: break-word; }

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+{% block content %}
+<form method="post">
+  <label>Host/IP</label>
+  <input name="host" placeholder="192.168.1.1" required>
+  <label>Ports</label>
+  <input name="ports" value="1-1024">
+  <label>Timeout</label>
+  <input name="timeout" value="1.0">
+  <label>Workers</label>
+  <input name="workers" value="200">
+  <button type="submit">Scan</button>
+</form>
+{% endblock %}

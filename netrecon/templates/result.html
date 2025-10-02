@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Result for {{host}}</h2>
+<table>
+  <tr><th>Port</th><th>Status</th></tr>
+  {% for p, st in scan.items() %}
+  <tr><td>{{p}}</td><td>{{st}}</td></tr>
+  {% endfor %}
+</table>
+<h3>Details</h3>
+<table>
+  <tr><th>Port</th><th>Service</th><th>Version</th><th>Banner</th></tr>
+  {% for d in details %}
+  <tr>
+    <td>{{d.port}}</td><td>{{d.service}}</td><td>{{d.version}}</td><td><pre>{{d.banner}}</pre></td>
+  </tr>
+  {% endfor %}
+</table>
+<a href="/">Back</a>
+{% endblock %}
