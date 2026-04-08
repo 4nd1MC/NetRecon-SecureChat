@@ -1,4 +1,4 @@
-# LAB3 Completion
+# NetRecon and SecureChat
 
 This archive provides Linux-native implementations for:
 1) SecureChat with TLS + client-auth and optional end-to-end AES-GCM.
